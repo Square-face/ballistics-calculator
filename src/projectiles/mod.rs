@@ -1,4 +1,3 @@
-
 pub mod simple {
     use crate::types::Vec2D;
 

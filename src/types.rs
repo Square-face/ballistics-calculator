@@ -171,7 +171,6 @@ impl Vec3D {
     /// assert_eq!(v_sphere.azimuth, 45f64.to_radians());
     /// ```
     pub fn to_sphere(&self) -> Vec3DSphere {
-        
         Vec3DSphere {
             radius: self.length(),
             azimuth: (self.y / self.x).atan(),
