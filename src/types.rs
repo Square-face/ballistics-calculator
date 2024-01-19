@@ -222,7 +222,7 @@ impl Vec2D {
     ///
     /// Recalculates the vector to have the given length while maintaining the
     /// ratio of the components.
-    pub fn update_length(&mut self, new: f64) {
+    pub fn update_length(&mut self, _new: f64) {
         todo!("Implement this function");
     }
 
